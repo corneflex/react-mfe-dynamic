@@ -1,5 +1,11 @@
 {
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
-  "projects": {}
+  "projects": {
+    "composer": "apps/composer",
+    "composer-e2e": "apps/composer-e2e",
+    "core": "libs/core",
+    "extension": "apps/extension",
+    "extension-e2e": "apps/extension-e2e"
+  }
 }
